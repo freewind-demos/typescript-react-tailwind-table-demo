@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, {FC} from 'react';
 import './Hello.pcss';
 
 type Props = {};
@@ -6,5 +6,6 @@ type Props = {};
 export const Hello: FC<Props> = ({}) => {
   return <div className={'Hello'}>
     <h1>Hello React</h1>
+    <button className='rounded'>Hello</button>
   </div>;
 }
